@@ -2,6 +2,8 @@
 node_modules
 /dist
 
+# notes
+dev-notes.txt
 
 # local env files
 .env.local
