@@ -46,11 +46,11 @@
       <div class="container text-left">
         <div class="mb-2">
           <span class="font-bold mr-1">New:</span>
-          {{ numberWithCommas(stats.NewDeaths) }}
+          {{ numberWithCommas(stats.NewRecovered) }}
         </div>
         <div class="mb-2">
           <span class="font-bold">Total:</span>
-          {{ numberWithCommas(stats.TotalDeaths) }}
+          {{ numberWithCommas(stats.TotalRecovered) }}
         </div>
       </div>
     </div>
