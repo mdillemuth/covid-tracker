@@ -1,7 +1,7 @@
 <template>
   <header class="bg-white text-center p-4 mb-4">
     <h1 class="text-4xl md:text-5xl font-bold mb-2 text-gray-800">
-      <i class="fa fa-viruses text-blue-700 mr-3"></i> Covid-19 Tracker
+      <i class="fa fa-viruses text-pink-500 mr-3"></i> Covid-19 Tracker
     </h1>
     <p>
       Special thanks to
