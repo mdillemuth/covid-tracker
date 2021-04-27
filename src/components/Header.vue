@@ -1,12 +1,12 @@
 <template>
-  <header class="text-center bg-indigo-800 text-white p-4 mb-10">
-    <h1 class="text-3xl md:text-5xl font-bold mb-3">
-      <i class="fa fa-viruses"></i> Covid-19 Tracker
+  <header class="bg-white text-center p-4 mb-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-2 text-gray-800">
+      <i class="fa fa-viruses text-blue-700 mr-3"></i> Covid-19 Tracker
     </h1>
     <p>
-      API by
+      Special thanks to
       <a
-        class="text-yellow-400"
+        class="text-blue-700 font-medium hover:text-blue-800"
         href="https://covid19api.com"
         target="_blank"
         rel="noreferrer"

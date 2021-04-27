@@ -1,9 +1,11 @@
 <template>
   <div class="text-center">
-    <h2 class="text-3xl font-bold">{{ text }}</h2>
-    <div class="text-2xl mt-4 mb-10">
+    <h2 class="text-2xl font-bold text-blue-700">
+      <i class="fas fa-globe-americas mr-3"></i>{{ text }}
+    </h2>
+    <p class="mb-4 text-gray-800">
       {{ timestamp }}
-    </div>
+    </p>
   </div>
 </template>
 
