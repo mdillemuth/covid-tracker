@@ -22,9 +22,9 @@ export default {
   },
   methods: {
     onChange() {
-      const country = this.countries.find((item) => item.ID === this.selected)
+      const country = this.countries.find((c) => c.ID === this.selected)
 
-      this.$emit('get-country')
+      this.$emit('get-country', country)
     },
   },
 }
